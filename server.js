@@ -21,7 +21,7 @@ app.post('/api/shorten', async (req, res) => {
     }
 
     const shortCode = nanoid(7);
-    const baseUrl = `http://localhost:${PORT}`;
+    const baseUrl = `https://urlshortner-server-6ijq.onrender.com`;
 
 
     const url = new Url({
